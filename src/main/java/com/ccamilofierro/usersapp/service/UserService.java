@@ -1,8 +1,8 @@
-package com.ccamilofierro.usersapp.services;
+package com.ccamilofierro.usersapp.service;
 
 import java.util.List;
 
-import com.ccamilofierro.usersapp.entities.User;
+import com.ccamilofierro.usersapp.entity.User;
 
 public interface UserService {
     User createUser(User user, boolean isAdmin);

@@ -1,4 +1,4 @@
-package com.ccamilofierro.usersapp.entities;
+package com.ccamilofierro.usersapp.entity;
 
 import java.util.ArrayList;
 import java.util.List;

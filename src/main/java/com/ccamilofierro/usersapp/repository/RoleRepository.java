@@ -1,10 +1,10 @@
-package com.ccamilofierro.usersapp.repositories;
+package com.ccamilofierro.usersapp.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ccamilofierro.usersapp.entities.Role;
+import com.ccamilofierro.usersapp.entity.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {
         Optional<Role> findByName(String name);

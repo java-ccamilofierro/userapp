@@ -1,4 +1,4 @@
-package com.ccamilofierro.usersapp.services;
+package com.ccamilofierro.usersapp.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.ccamilofierro.usersapp.entities.Role;
-import com.ccamilofierro.usersapp.entities.User;
-import com.ccamilofierro.usersapp.repositories.RoleRepository;
-import com.ccamilofierro.usersapp.repositories.UserRepository;
+import com.ccamilofierro.usersapp.entity.Role;
+import com.ccamilofierro.usersapp.entity.User;
+import com.ccamilofierro.usersapp.repository.RoleRepository;
+import com.ccamilofierro.usersapp.repository.UserRepository;
 
 public class UserServiceImpl implements UserService {
 

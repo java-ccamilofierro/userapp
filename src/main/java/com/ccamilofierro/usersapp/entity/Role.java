@@ -1,5 +1,5 @@
 
-package com.ccamilofierro.usersapp.entities;
+package com.ccamilofierro.usersapp.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
